@@ -1,0 +1,10 @@
+plugin: gcp_compute
+zones: # populate inventory with instances in these regions
+  - us-central1-a
+projects:
+  - terraformtest-275313
+scopes:
+  - https://www.googleapis.com/auth/compute
+filters: []
+auth_kind: serviceaccount
+service_account_file: /home/dan/ansible_playbooks/terraformtest-eb84996021bb.json
